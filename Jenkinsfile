@@ -13,7 +13,7 @@ pipeline {
                           }}
                        stage('Deployment') {
                           steps {
-                                 sh 'cp /home/samiksha/Documents/Devops-tools/apache-tomcat-9.0.73/webapps'
+                                 sh 'cp target/Flipcart.war/home/samiksha/Documents/Devops-tools/apache-tomcat-9.0.73/webapps'
                      }
 
 }}}
